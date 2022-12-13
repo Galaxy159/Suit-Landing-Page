@@ -1,0 +1,39 @@
+// Colors
+$color-blue-dark: #172339;
+$color-gray-dark: #49566d;
+$color-baige: #f3ede7;
+$color-white: #faf8f6;
+$color-purple: #a060ff;
+$color-magenta: #cb30e3;
+$color-orange: #ffa84e;
+
+// Media
+@mixin respond($breakpoint) {
+  @if $breakpoint == tablet {
+    @media (min-width: 480px) {
+      @content;
+    }
+  }
+  @if $breakpoint == desktop {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+}
