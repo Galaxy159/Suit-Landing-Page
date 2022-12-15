@@ -1,0 +1,24 @@
+.header {
+  .header__content {
+  }
+  .header__headline {
+    &--text {
+      font-size: 3.8rem;
+      line-height: 4.4rem;
+      font-weight: 400;
+
+      & span {
+        font-weight: 700;
+      }
+    }
+    &--img {
+      height: 1.9rem;
+      position: absolute;
+      top: -2rem;
+      right: 1rem;
+      &-container {
+        position: relative;
+      }
+    }
+  }
+}
