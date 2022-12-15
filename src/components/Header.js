@@ -43,7 +43,7 @@ export default function Header() {
           </div>
           <div className="header__stats--item">
             <p className="header__stats--item-number">1.2M</p>
-            <p className="header__stats--item-text"></p>
+            <p className="header__stats--item-text">Leads</p>
           </div>
         </div>
       </div>

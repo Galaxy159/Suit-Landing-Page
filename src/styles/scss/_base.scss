@@ -36,4 +36,11 @@ html {
 
 body {
   font-family: "Epilogue", sans-serif;
+  color: $color-blue-dark;
+  background-color: $color-baige;
+}
+
+.container {
+  max-width: 37.5rem;
+  margin: 0 auto;
 }

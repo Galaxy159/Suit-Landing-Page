@@ -1,11 +1,13 @@
 import avatar from "../assets/image-jeremy-small.png";
 import curve from "../assets/pattern-curved-line-2.svg";
+import blur from "../assets/pattern-blur.svg";
 
 export default function Testimonial() {
   return (
     <>
       <div className="testimonial">
         <div className="testimonial__avatar">
+          <img src={blur} alt="Blur" className="testimonial__avatar--blur" />
           <img
             src={avatar}
             alt="Fylo CMO"

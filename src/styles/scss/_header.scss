@@ -1,11 +1,14 @@
 .header {
+  margin: 0 1.6rem;
   .header__content {
   }
   .header__headline {
     &--text {
+      margin-bottom: 3.2rem;
+      font-weight: 400;
       font-size: 3.8rem;
       line-height: 4.4rem;
-      font-weight: 400;
+      letter-spacing: -0.527778px;
 
       & span {
         font-weight: 700;
@@ -14,10 +17,65 @@
     &--img {
       height: 1.9rem;
       position: absolute;
-      top: -2rem;
+      top: -2.8rem;
       right: 1rem;
       &-container {
         position: relative;
+      }
+    }
+  }
+
+  &__cta {
+    height: 6.1rem;
+    width: 25.6rem;
+    background-color: $color-blue-dark;
+    margin-bottom: 5.6rem;
+    display: grid;
+    place-content: center;
+    border-radius: 0.6rem;
+    &--text {
+      font-weight: 700;
+      font-size: 1.8rem;
+      line-height: 3.2rem;
+      letter-spacing: 0.18px;
+      color: $color-white;
+    }
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.0888889px;
+    color: $color-gray-dark;
+    margin-bottom: 3.2rem;
+  }
+
+  &__hero {
+    margin-bottom: 5.6rem;
+    &--img {
+      max-width: 34.3rem;
+    }
+  }
+
+  &__stats {
+    display: grid;
+    justify-content: center;
+    gap: 3.2rem;
+    &--item {
+      text-align: center;
+      &-number {
+        font-weight: 700;
+        font-size: 4.8rem;
+        line-height: 5.6rem;
+      }
+      &-text {
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        letter-spacing: 0.25rem;
+        color: $color-gray-dark;
+        text-transform: uppercase;
       }
     }
   }
