@@ -149,7 +149,7 @@ body {
 @media (min-width: 1440px) {
   .header .header__headline--img {
     height: 3.6rem;
-    top: -4rem;
+    top: -5.6rem;
   }
 }
 .header .header__headline--img-container {
@@ -282,10 +282,10 @@ body {
 }
 @media (min-width: 1440px) {
   .testimonial__avatar {
-    background-position: left 50% top 20rem;
+    background-position: left 50% top 18.5rem;
     background-size: 25%;
     left: -50rem;
-    top: -6.8rem;
+    top: -5.3rem;
   }
 }
 .testimonial__content {
@@ -323,7 +323,7 @@ body {
 }
 @media (min-width: 1440px) {
   .testimonial__content--container {
-    max-width: 34rem;
+    max-width: 35rem;
   }
 }
 .testimonial__content--headline {
@@ -342,6 +342,13 @@ body {
   line-height: 3.2rem;
   letter-spacing: 0.09px;
   margin-bottom: 4rem;
+}
+@media (min-width: 1440px) {
+  .testimonial__content--text {
+    font-size: 2rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.1px;
+  }
 }
 .testimonial__content--name {
   font-weight: 700;
