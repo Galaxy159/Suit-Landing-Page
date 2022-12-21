@@ -120,6 +120,7 @@ body {
     line-height: 6.4rem;
     letter-spacing: -0.777778px;
     max-width: 57.3rem;
+    margin-bottom: 4rem;
   }
 }
 @media (min-width: 1440px) {
@@ -172,7 +173,7 @@ body {
 }
 @media (min-width: 1440px) {
   .header__cta {
-    margin-bottom: 36rem;
+    margin-bottom: 32rem;
   }
 }
 .header__cta:hover {
@@ -203,6 +204,7 @@ body {
     font-size: 1.8rem;
     line-height: 3.2rem;
     letter-spacing: 0.1px;
+    margin-bottom: 5.2rem;
   }
 }
 .header__hero {

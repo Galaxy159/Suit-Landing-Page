@@ -24,6 +24,7 @@
         line-height: 6.4rem;
         letter-spacing: -0.777778px;
         max-width: 57.3rem;
+        margin-bottom: 4rem;
       }
 
       @include respond(desktop) {
@@ -74,7 +75,7 @@
     }
 
     @include respond(desktop) {
-      margin-bottom: 36rem;
+      margin-bottom: 32rem;
     }
 
     &:hover {
@@ -110,6 +111,7 @@
       font-size: 1.8rem;
       line-height: 3.2rem;
       letter-spacing: 0.1px;
+      margin-bottom: 5.2rem;
     }
   }
 
