@@ -33,7 +33,7 @@ export default function Testimonial() {
               of the tasks that you would normally need separate tools to do the
               same job. This thing is a miracle worker.”
             </p>
-            <p className="testimonial__content--name">Jeremy Robinson</p>
+            <p className="testimonial__content--name">JEREMY ROBINSON</p>
             <p className="testimonial__content--position">CMO, FYLO</p>
           </div>
         </div>

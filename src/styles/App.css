@@ -173,7 +173,7 @@ body {
 }
 @media (min-width: 1440px) {
   .header__cta {
-    margin-bottom: 32rem;
+    margin-bottom: 30rem;
   }
 }
 .header__cta:hover {
