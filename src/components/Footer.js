@@ -16,10 +16,10 @@ export default function Footer() {
             <use href={`${sprite}#icon-facebook`} />
           </svg>
           <svg className="footer__social--icon">
-            <use href={`${sprite}#icon-instagram`} />
+            <use href={`${sprite}#icon-twitter`} />
           </svg>
           <svg className="footer__social--icon">
-            <use href={`${sprite}#icon-twitter`} />
+            <use href={`${sprite}#icon-instagram`} />
           </svg>
         </div>
       </div>
