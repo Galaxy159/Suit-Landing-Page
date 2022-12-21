@@ -18,6 +18,13 @@
       background-size: 50%;
       background-position: left 50% top 8rem;
     }
+
+    @include respond(desktop) {
+      background-position: left 50% top 20rem;
+      background-size: 25%;
+      left: -50rem;
+      top: -6.8rem;
+    }
   }
 
   &__content {
@@ -29,9 +36,33 @@
       padding-inline: 5.8rem;
       margin: 0 4rem;
     }
+
+    @include respond(desktop) {
+      padding: 8.8rem 12.5rem;
+      margin: 0 16.5rem;
+      display: grid;
+      grid-template-columns: repeat(2, max-content);
+      place-content: end;
+      align-items: center;
+      text-align: left;
+      gap: 5.275rem;
+    }
+
     &--curve {
       margin-bottom: 4rem;
+
+      @include respond(desktop) {
+        align-self: start;
+        transform: translateY(7rem);
+      }
     }
+
+    &--container {
+      @include respond(desktop) {
+        max-width: 34rem;
+      }
+    }
+
     &--headline {
       font-size: 4rem;
       font-weight: 400;

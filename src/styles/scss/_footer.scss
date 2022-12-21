@@ -8,14 +8,17 @@
 
   @include respond(tablet) {
     transform: translateY(-46.3rem);
-  }
-
-  @include respond(tablet) {
     grid-template-columns: repeat(3, max-content);
     justify-content: space-between;
     align-items: center;
     padding: 53.6rem 4rem 7.4rem;
   }
+
+  @include respond(desktop) {
+    transform: translateY(-28rem);
+    padding: 36rem 16.5rem 7.2rem;
+  }
+
   &__logo {
     &--img {
       height: 3.2rem;

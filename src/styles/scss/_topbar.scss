@@ -7,6 +7,9 @@
   @include respond(tablet) {
     margin: 4rem 4rem 16.8rem;
   }
+  @include respond(desktop) {
+    margin: 5rem 16.5rem 17rem;
+  }
   &__logo {
     &--img {
       height: 3.2rem;

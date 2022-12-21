@@ -29,9 +29,7 @@ export default function Header() {
             <p className="header__cta--text">Request Beta Access</p>
           </div>
         </div>
-        <div className="header__hero">
-          <img src={hero} alt="Hero" className="header__hero--img" />
-        </div>
+
         <div className="header__stats">
           <div className="header__stats--item">
             <p className="header__stats--item-number">2K+</p>
@@ -45,6 +43,9 @@ export default function Header() {
             <p className="header__stats--item-number">1.2M</p>
             <p className="header__stats--item-text">Leads</p>
           </div>
+        </div>
+        <div className="header__hero">
+          <img src={hero} alt="Hero" className="header__hero--img" />
         </div>
       </div>
     </>

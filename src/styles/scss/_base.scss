@@ -54,5 +54,7 @@ body {
 
   @include respond(desktop) {
     max-width: 144rem;
+    background-size: 35rem 60rem;
+    background-position: right 45rem top 12.3rem;
   }
 }

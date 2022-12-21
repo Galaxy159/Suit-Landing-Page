@@ -1,8 +1,14 @@
 .header {
   margin: 0 1.6rem;
+  display: grid;
 
   @include respond(tablet) {
     margin: 0 4rem;
+  }
+  @include respond(desktop) {
+    grid-template-columns: repeat(2, max-content);
+    margin: 0 16.5rem;
+    gap: 28.5rem;
   }
 
   .header__headline {
@@ -20,6 +26,13 @@
         max-width: 57.3rem;
       }
 
+      @include respond(desktop) {
+        font-size: 7.2rem;
+        line-height: 7.8rem;
+        letter-spacing: -0.777778px;
+        max-width: 63.5rem;
+      }
+
       & span {
         font-weight: 700;
       }
@@ -32,6 +45,11 @@
 
       @include respond(tablet) {
         height: 2.9rem;
+        top: -4rem;
+      }
+
+      @include respond(desktop) {
+        height: 3.6rem;
         top: -4rem;
       }
       &-container {
@@ -53,6 +71,10 @@
 
     @include respond(tablet) {
       margin-bottom: 12.8rem;
+    }
+
+    @include respond(desktop) {
+      margin-bottom: 29rem;
     }
 
     &:hover {
@@ -83,10 +105,17 @@
     @include respond(tablet) {
       max-width: 35rem;
     }
+
+    @include respond(desktop) {
+      font-size: 1.8rem;
+      line-height: 3.2rem;
+      letter-spacing: 0.1px;
+    }
   }
 
   &__hero {
     margin-bottom: 5.6rem;
+    grid-row: 2 / 3;
 
     @include respond(tablet) {
       display: none;
@@ -104,6 +133,11 @@
       justify-content: space-around;
       margin-bottom: 27.3rem;
     }
+
+    @include respond(desktop) {
+      grid-template-columns: repeat(1, max-content);
+    }
+
     &--item {
       text-align: center;
       &-number {
