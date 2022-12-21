@@ -3,6 +3,10 @@
   display: grid;
   grid-template-columns: repeat(2, max-content);
   justify-content: space-between;
+
+  @include respond(tablet) {
+    margin: 4rem 4rem 16.8rem;
+  }
   &__logo {
     &--img {
       height: 3.2rem;
@@ -16,6 +20,13 @@
     border: 1px solid $color-blue-dark;
     display: grid;
     place-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover {
+      color: $color-white;
+      background-color: $color-blue-dark;
+    }
     &--text {
       font-weight: 700;
       font-size: 1.4rem;

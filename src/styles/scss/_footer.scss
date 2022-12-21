@@ -1,0 +1,49 @@
+.footer {
+  display: grid;
+  place-content: center;
+  gap: 3.3rem;
+  text-align: center;
+  padding-block: 5.6rem 8rem;
+  background-color: $color-baige;
+
+  @include respond(tablet) {
+    transform: translateY(-46.3rem);
+  }
+
+  @include respond(tablet) {
+    grid-template-columns: repeat(3, max-content);
+    justify-content: space-between;
+    align-items: center;
+    padding: 53.6rem 4rem 7.4rem;
+  }
+  &__logo {
+    &--img {
+      height: 3.2rem;
+    }
+  }
+  &__copyright {
+    &--text {
+      font-weight: 400;
+      font-size: 1.5rem;
+      line-height: 3.2rem;
+      letter-spacing: 0.08px;
+    }
+  }
+  &__social {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 2.8rem;
+
+    &--icon {
+      width: 2rem;
+      height: 2rem;
+      fill: $color-blue-dark;
+      cursor: pointer;
+      transition: all 0.2s;
+
+      &:hover {
+        fill: $color-gray-dark;
+      }
+    }
+  }
+}
