@@ -67,6 +67,12 @@ body {
   cursor: pointer;
   transition: all 0.2s;
 }
+@media (min-width: 768px) {
+  .topbar__cta {
+    height: 5.6rem;
+    width: 21.9rem;
+  }
+}
 .topbar__cta:hover {
   color: #faf8f6;
   background-color: #172339;
@@ -75,6 +81,13 @@ body {
   font-weight: 700;
   font-size: 1.4rem;
   line-height: 2.4rem;
+}
+@media (min-width: 768px) {
+  .topbar__cta--text {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    letter-spacing: -0.16px;
+  }
 }
 
 .header {
@@ -159,7 +172,7 @@ body {
 }
 @media (min-width: 1440px) {
   .header__cta {
-    margin-bottom: 29rem;
+    margin-bottom: 36rem;
   }
 }
 .header__cta:hover {
@@ -223,6 +236,11 @@ body {
 }
 .header__stats--item {
   text-align: center;
+}
+@media (min-width: 1440px) {
+  .header__stats--item {
+    text-align: left;
+  }
 }
 .header__stats--item-number {
   font-weight: 700;
